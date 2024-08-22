@@ -53,6 +53,8 @@ const Page = () => {
             password,
           });
           console.log(response.data);
+          setEmail("");
+          setPassword("");
           setIsSignUp(false)
         } else {
           // Sign In API Call

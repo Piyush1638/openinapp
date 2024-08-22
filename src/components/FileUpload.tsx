@@ -116,7 +116,7 @@ const FileUpload: React.FC<FileUploadProps> = ({ setData }) => {
             />
             {file ? (
               <>
-                <p className="mt-4 text-center text-white">
+                <p className="mt-4 text-center font-semibold dark:text-white text-black">
                   Uploaded file: {file.name}
                 </p>
                 <button
